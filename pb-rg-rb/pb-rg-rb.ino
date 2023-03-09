@@ -1,7 +1,7 @@
- int redPin = 9;    // define the pin number for the red LED
- int greenPin = 10; // define the pin number for the green LED
- int bluePin = 11;  // define the pin number for the blue LED
- int buttonPin = 2; // define the pin number for the push-button
+ int redPin = 2;    // define the pin number for the red LED
+ int greenPin = 3; // define the pin number for the green LED
+ int bluePin = 4;  // define the pin number for the blue LED
+ int buttonPin = 5; // define the pin number for the push-button
 
 void setup() {
   pinMode(redPin, OUTPUT);     // set the red LED pin as output
