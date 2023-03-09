@@ -1,5 +1,5 @@
  //define the pin of the Push Button
- int BUTTON_PIN = 2;
+ int BUTTON_PIN = 5;
 
 void setup() {
   //set the pin for the Push Button

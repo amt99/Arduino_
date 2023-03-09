@@ -1,5 +1,5 @@
 // Define the pin of the Push Button
-int BUTTON_PIN = 2;
+int BUTTON_PIN = 5;
 
 void setup() {
   // Set the pin for the Push Button as input with internal pull-up resistor enabled
