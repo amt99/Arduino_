@@ -1,3 +1,9 @@
+/*
+This program controls a sequence of four LEDs connected to pins 2-5 of an Arduino board.
+The LEDs light up one at a time in a sequential pattern and then turn off in reverse order.
+The delay between each LED turning on and off is set to 100 milliseconds.
+The sequence then repeats continuously.
+*/
 // Define the pins for each LED
 int LED_1 = 2;      // Define pin 2 as LED_1
 int LED_2 = 3;      // Define pin 3 as LED_2
@@ -5,6 +11,7 @@ int LED_3 = 4;      // Define pin 4 as LED_3
 int LED_4 = 5;      // Define pin 5 as LED_4
 
 void setup() {
+
   // Set the LED pins as output
   pinMode(LED_1, OUTPUT);   // Set LED_1 as an output
   pinMode(LED_2, OUTPUT);   // Set LED_2 as an output

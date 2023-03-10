@@ -1,3 +1,11 @@
+/*
+This program defines the pins for each color of an RGB LED and sets them as output pins.
+It then turns on each color of the LED (red, green, and blue) one at a time and waits for 
+100 milliseconds between each change.
+This creates a simple color cycle effect where the LED changes color every 100 milliseconds.
+The program runs in an infinite loop and continues the color cycle until the power is turned 
+off or the program is stopped.
+*/
 // Define the pins for each color of the RGB LED
 int RED_PIN = 2;    // Define pin 2 as RED_PIN
 int GREEN_PIN = 3;  // Define pin 3 as GREEN_PIN

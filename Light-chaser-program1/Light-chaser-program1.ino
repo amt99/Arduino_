@@ -1,3 +1,10 @@
+/*
+control four LEDs connected to digital pins 2, 3, 4, and 5.
+The program turns on the first LED, waits for 100 milliseconds, turns it off, and turns on the second LED.
+This process continues with the third and fourth LEDs in sequence, and then the sequence repeats.
+This is a simple example of how to use digital output and delay functions to control multiple
+ LEDs in sequence in Arduino programming.
+*/
 // Define the pins for each LED
 int LED_1 = 2; // Pin number for LED 1
 int LED_2 = 3; // Pin number for LED 2

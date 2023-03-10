@@ -1,3 +1,9 @@
+/*
+This is a program for Arduino that controls an RGB LED and a push button.
+The program turns on the red LED, green LED, or blue LED based on the state of the push button.
+The pins for the RGB LED and push button are defined in the code.
+*/
+// Define the RGB pins and PB pin
  int redPin = 2;    // define the pin number for the red LED
  int greenPin = 3; // define the pin number for the green LED
  int bluePin = 4;  // define the pin number for the blue LED

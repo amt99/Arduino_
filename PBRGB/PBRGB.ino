@@ -1,3 +1,9 @@
+/*
+This is a program for Arduino that controls an RGB LED and a push button.
+The program turns on the RGB LED to white when the push button is not pressed and 
+turns it off when the push button is pressed.
+The pins for the RGB LED and push button are defined in the code.
+*/
 // Define the pins for each color of the RGB LED
 int RED_PIN = 2; // Pin number for the red color of the RGB LED
 int GREEN_PIN = 3; // Pin number for the green color of the RGB LED

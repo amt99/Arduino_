@@ -1,3 +1,8 @@
+/*This program controla an LED connected to digital pin 2.
+The LED turns on for one second, then turns off for one second, and repeats this pattern indefinitely.
+ This is a simple example of how to use digital output and delay functions in Arduino programming.
+*/
+//Define the Led pin
 int LED = 2
 
 void setup() {
